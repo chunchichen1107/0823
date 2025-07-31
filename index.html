@@ -16,7 +16,7 @@
 <body>
   <h1>🗳️ 823 公投錄取查詢系統</h1>
   <p>請輸入您的姓名：</p>
-  <input type="text" id="nameInput" placeholder="例如：陳俊吉">
+  <input type="text" id="nameInput" placeholder="例如：王小明">
   <button onclick="checkAdmission()">查詢</button>
   <div id="result"></div>
 
@@ -55,7 +55,7 @@ const dataList = [
           <p style="color: green; font-weight: bold;">✅ 您已錄取！</p>
         `;
       } else {
-        resultDiv.innerHTML = `<p style="color: red;">❌ 查無此人。</p>`;
+        resultDiv.innerHTML = `<p style="color: red;">❌ 您未被錄取。</p>`;
       }
     }
   </script>
